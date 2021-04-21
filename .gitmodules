@@ -1,0 +1,3 @@
+[submodule "src/lib/pipewire"]
+	path = src/lib/pipewire
+	url = https://gitlab.freedesktop.org/pipewire/pipewire.git
