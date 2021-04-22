@@ -18,4 +18,5 @@
   :serial t
   :components ((:file "claw")
                (:module :pipewire-includes :pathname "lib/pipewire/src/")
-               (:module :spa-includes :pathname "lib/pipewire/spa/include")))
+               (:module :spa-includes :pathname "lib/pipewire/spa/include/")
+               (:module :custom-includes :pathname "include/")))

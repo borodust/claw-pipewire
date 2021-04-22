@@ -18,6 +18,7 @@ add_library(${TARGET} SHARED ${ADAPTER})
 target_include_directories(${TARGET}
   PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/../"
   PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/"
+  PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/../include/"
   PRIVATE "${CMAKE_CURRENT_SOURCE_DIR}/../include/${TARGET_TRIPLE}/"
   PRIVATE "${LIBRARY_DIR}/src/"
   PRIVATE "${LIBRARY_DIR}/spa/include/")
